@@ -1,36 +1,23 @@
-body {
-  background-color: #ccc;
+#game {
+  font-family: "Brush Script Mt", cursive, "Roboto", arial;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #222831;
+  text-align: center;
+}
+#playerText,
+#computerText {
+  color: #ddd;
+}
+#resultText {
+  color: #950740;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.button {
-  background: none;
-  border: none;
-  margin: 30px;
-  outline: none;
-  cursor: pointer;
-  font-size: 4rem;
-  transition: 100ms;
-}
-
-.button:hover {
-  transform: scale(1.2);
-}
-
-.results {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 2rem;
-}
-
-.score {
-  margin-left: 0.1rem;
-  font-size: 1rem;
-  color: #333;
+.Btn {
+  line-height: 30px;
+  width: 130px;
+  border: 3px solid;
+  border-radius: 10px;
+  color: #393e46;
 }
